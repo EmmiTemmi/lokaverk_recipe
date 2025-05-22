@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-//import 'screens/recipe_list_screen.dart';
+import 'screens/recipe_list_screen.dart';
 
 void main() {
   runApp(RecipeApp());
@@ -11,7 +11,7 @@ class RecipeApp extends StatelessWidget {
     return MaterialApp(
       title: 'Simple Recipe App',
       theme: ThemeData(primarySwatch: Colors.orange),
-      //home: RecipeListScreen(),
+      home: RecipeListScreen(),
     );
   }
 }
