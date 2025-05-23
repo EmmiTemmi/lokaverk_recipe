@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/recipe.dart';
-//import '../data/dummy_data.dart';
+import '../data/dummy_data.dart';
 
 class AddRecipeScreen extends StatefulWidget {
   @override
@@ -18,7 +18,7 @@ class _AddRecipeScreenState extends State<AddRecipeScreen> {
 
     recipes.add(Recipe(
       name: nameController.text,
-      imagePath: 'assets/pancake.jpg', // Placeholder for simplicity
+      imagePath: 'assets/images/pancake.png', // Placeholder for simplicity
       ingredients: ingredientsController.text,
       instructions: instructionsController.text,
       category: selectedCategory!,

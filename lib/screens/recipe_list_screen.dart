@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-//import '../data/dummy_data.dart';
+import '../data/dummy_data.dart';
 import 'add_recipe_screen.dart';
-//import '../widgets/recipe_tile.dart';
+import '../widgets/recipe_tile.dart';
 
 class RecipeListScreen extends StatefulWidget {
   @override
