@@ -18,7 +18,7 @@ class _AddRecipeScreenState extends State<AddRecipeScreen> {
 
     recipes.add(Recipe(
       name: nameController.text,
-      imagePath: 'assets/images/pancake.png', // Placeholder for simplicity
+      imagePath: 'assets/images/pancake.png',
       ingredients: ingredientsController.text,
       instructions: instructionsController.text,
       category: selectedCategory!,
